@@ -7,7 +7,11 @@ def fizzbuzz(int)
     "Buzz"
   elsif int % 3 == 0
     "Fizz"
-  else
+  elsif int % 15 != 0
+    "nil"
+  elsif int % 5 != 0
+    "nil"
+  else int % 3 != 0
     "nil"
 end
 end
